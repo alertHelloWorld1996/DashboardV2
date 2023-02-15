@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=468, user-scalable=no ">
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #FAFBFF;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/stylesMob.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mainMob.css">
+
+</head>
+<body>
+
+	<div class="" id="builderUI" style="">
+        <div id="logotype"><img src="src/dashboard_logo.png" height="39" width="195" /></div>
+        <div id="logoVersion">v.01</div>
+
+		<div class="builderBlockStyleInactive" onclick="">
+			<div class="builderBlockTextInactive" id="builderBlockText1">Dashboard</div>
+            <div class="builderIconInactive" id="builderIcon1"></div>
+		</div>
+
+        <div class="builderBlockStyleInactive" onclick="">
+			<div class="builderBlockTextInactive" id="builderBlockText2">Product</div>
+            <div class="builderIconInactive" id="builderIcon2"></div>
+            <div class="builderArrowInactive" id="builderArrow1"></div>
+		</div>
+
+        <div class="builderBlockStyleActive" id="" onclick="">
+			<div class="builderBlockTextActive" id="builderBlockText3">Customers</div>
+            <div class="builderIconInactive" id="builderIcon3"></div>
+            <div class="builderArrowActive" id="builderArrow2"></div>
+		</div>
+
+        <div class="builderBlockStyleInactive" id="" onclick="">
+			<div class="builderBlockTextInactive" id="builderBlockText4">Income</div>
+            <div class="builderIconInactive" id="builderIcon4"></div>
+            <div class="builderArrowInactive" id="builderArrow3"></div>
+		</div>
+
+        <div class="builderBlockStyleInactive" id="" onclick="">
+			<div class="builderBlockTextInactive" id="builderBlockText5">Promote</div>
+            <div class="builderIconInactive" id="builderIcon5"></div>
+            <div class="builderArrowInactive" id="builderArrow4"></div>
+		</div>
+
+        <div class="builderBlockStyleInactive" id="" onclick="">
+			<div class="builderBlockTextInactive" id="builderBlockText6">Help</div>
+            <div class="builderIconInactive" id="builderIcon6"></div>
+            <div class="builderArrowInactive" id="builderArrow5"></div>
+		</div>
+
+        <div class="builderBlockStylePR" id="" onclick="">
+			<div id="builderBlockTextEvano">Evano</div>
+            <div id="builderBlockTextPrMan">Project Manager</div>
+            <div id="builderAvatar"></div>
+		</div>
+    </div>
+
+
+    <div id="textHelloEvano">Hello Evano 👋🏼,</div>
+
+
+    <div id="builderMain">
+
+        <div id="headerMainBlock">
+            <div id="titleMainText">All Customers</div>
+            <div id="descrMainText">Active Members</div>
+
+            <input placeholder="Search" id="mainSearch" />
+            <div id="searchIcon"></div>
+        </div>
+
+        <div id="mainBlock1">
+            <div class="mainBlockTextClass" id="mainBlockText1">Customer Name</div>
+            <div class="mainBlockTextClass" id="mainBlockText2">Company</div>
+            <div class="mainBlockTextClass" id="mainBlockText3">Phone Number</div>
+            <div class="mainBlockTextClass" id="mainBlockText4">Email</div>
+            <div class="mainBlockTextClass" id="mainBlockText5">Country</div>
+            <div class="mainBlockTextClass" id="mainBlockText6">Status</div>
+            <div id="lineWidth"></div>
+        </div>
+
+        <div id="mainBlock2">
+            <div class="secondBlockTextClass" id="mainBlockText1">Jane Cooper</div>
+            <div class="secondBlockTextClass" id="mainBlockText2">Microsoft</div>
+            <div class="secondBlockTextClass" id="mainBlockText3">(225) 555-0118</div>
+            <div class="secondBlockTextClass" id="mainBlockText4">jane@microsoft.com</div>
+            <div class="secondBlockTextClass" id="mainBlockText5">United States</div>
+            <button id="buttonActiveBlock">Active</button>
+            <div id="lineWidthShirt1"></div>
+        </div>
+
+        <div id="mainBlock3">
+            <div class="secondBlockTextClass" id="mainBlockText1">Floyd Miles</div>
+            <div class="secondBlockTextClass" id="mainBlockText2">Yahoo</div>
+            <div class="secondBlockTextClass" id="mainBlockText3">(205) 555-0100</div>
+            <div class="secondBlockTextClass" id="mainBlockText4">floyd@yahoo.com</div>
+            <div class="secondBlockTextClass" id="mainBlockText5">Kiribati</div>
+            <button id="buttonInactiveBlock">Inactive</button>
+            <div id="lineWidthShirt2"></div>
+        </div>
+
+        <div id="mainBlock4">
+            <div class="secondBlockTextClass" id="mainBlockText1">Ronald Richards</div>
+            <div class="secondBlockTextClass" id="mainBlockText2">Adobe</div>
+            <div class="secondBlockTextClass" id="mainBlockText3">(302) 555-0107</div>
+            <div class="secondBlockTextClass" id="mainBlockText4">ronald@adobe.com</div>
+            <div class="secondBlockTextClass" id="mainBlockText5">Israel</div>
+            <button id="buttonInactiveBlock">Inactive</button>
+            <div id="lineWidthShirt3"></div>
+        </div>
+
+        <div id="mainBlock5">
+            <div class="secondBlockTextClass" id="mainBlockText1">Marvin McKinney</div>
+            <div class="secondBlockTextClass" id="mainBlockText2">Tesla</div>
+            <div class="secondBlockTextClass" id="mainBlockText3">(252) 555-0126</div>
+            <div class="secondBlockTextClass" id="mainBlockText4">marvin@tesla.com</div>
+            <div class="secondBlockTextClass" id="mainBlockText5">Iran</div>
+            <button id="buttonActiveBlock">Active</button>
+            <div id="lineWidthShirt4"></div>
+        </div>
+
+        <div id="mainBlock6">
+            <div class="secondBlockTextClass" id="mainBlockText1">Jerome Bell</div>
+            <div class="secondBlockTextClass" id="mainBlockText2">Google</div>
+            <div class="secondBlockTextClass" id="mainBlockText3">(629) 555-0129</div>
+            <div class="secondBlockTextClass" id="mainBlockText4">jerome@google.com</div>
+            <div class="secondBlockTextClass" id="mainBlockText5">Réunion</div>
+            <button id="buttonActiveBlock">Active</button>
+            <div id="lineWidthShirt5"></div>
+        </div>
+
+        <div id="mainBlock7">
+            <div class="secondBlockTextClass" id="mainBlockText1">Kathryn Murphy</div>
+            <div class="secondBlockTextClass" id="mainBlockText2">Microsoft</div>
+            <div class="secondBlockTextClass" id="mainBlockText3">(406) 555-0120</div>
+            <div class="secondBlockTextClass" id="mainBlockText4">kathryn@microsoft.com</div>
+            <div class="secondBlockTextClass" id="mainBlockText5">Curaçao</div>
+            <button id="buttonActiveBlock">Active</button>
+            <div id="lineWidthShirt6"></div>
+        </div>
+
+        <div id="mainBlock8">
+            <div class="secondBlockTextClass" id="mainBlockText1">Jacob Jones</div>
+            <div class="secondBlockTextClass" id="mainBlockText2">Yahoo</div>
+            <div class="secondBlockTextClass" id="mainBlockText3">(208) 555-0112</div>
+            <div class="secondBlockTextClass" id="mainBlockText4">jacob@yahoo.com</div>
+            <div class="secondBlockTextClass" id="mainBlockText5">Brazil</div>
+            <button id="buttonActiveBlock">Active</button>
+            <div id="lineWidthShirt7"></div>
+        </div>
+
+        <div id="mainBlock9">
+            <div class="secondBlockTextClass" id="mainBlockText1">Kristin Watson</div>
+            <div class="secondBlockTextClass" id="mainBlockText2">Facebook</div>
+            <div class="secondBlockTextClass" id="mainBlockText3">(704) 555-0127</div>
+            <div class="secondBlockTextClass" id="mainBlockText4">kristin@facebook.com</div>
+            <div class="secondBlockTextClass" id="mainBlockText5">Åland Islands</div>
+            <button id="buttonInactiveBlock">Inactive</button>
+            <div id="lineWidthShirt8"></div>
+        </div>
+
+        <div id="descrEntries">Showing data 1 to 8 of  256K entries</div>
+
+        <div class="blockButton">
+            <button class="blockButtonNumber" id="buttonNumberArrowLeft"> < </button>
+            <button class="blockButtonNumberActive" id="buttonNumber1"> 1 </button>
+            <button class="blockButtonNumber" id="buttonNumber2"> 2 </button>
+            <button class="blockButtonNumber" id="buttonNumber3"> 3 </button>
+            <button class="blockButtonNumber" id="buttonNumber4"> 4 </button>
+        </div>
+
+        <div id="threeDots">...</div>
+
+        <div class="blockButton2">
+            <button class="blockButtonNumber" id="buttonNumber40"> 40 </button>
+            <button class="blockButtonNumber" id="buttonNumberArrowRight"> > </button>
+        </div>
+
+    </div>
+</body>
+</html>

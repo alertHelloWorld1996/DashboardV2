@@ -1,0 +1,186 @@
+  #builderUI {
+    width: 306px;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background-color: #FFFFFF;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
+  }
+
+  #logotype {
+
+    top: 36px;
+    left: 28px;
+    position: absolute;
+  }
+
+  #logoVersion{
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 15px;
+        color: #838383;
+        position: relative;
+        top: 54px;
+        left: 227px;
+        height: 128px;
+  }
+
+  .builderBlockStyleInactive{
+    position: relative;
+    width: 250px;
+    height: 46px;
+    left: 28px;
+    background-color: #ffffff;
+    margin-bottom: 33px;
+    overflow-y: auto;
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .builderBlockStylePR{
+    position: absolute;
+    width: 250px;
+    height: 46px;
+    left: 28px;
+    background-color: #ffffff;
+    margin-bottom: 33px;
+    overflow-y: auto;
+    bottom: 0px;
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .builderBlockStyleActive{
+    position: relative;
+    width: 250px;
+    height: 46px;
+    left: 28px;
+    background-color: #5932EA;
+    margin-bottom: 33px;
+    overflow-y: auto;
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .builderBlockTextInactive {
+    position: absolute;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    left: 49px;
+    top: 13px;
+    color: #9197B3;
+  }
+
+  .builderBlockTextActive {
+    position: absolute;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    left: 49px;
+    top: 13px;
+    color: #ffffff;
+  }
+
+  .builderIconInactive{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 12px;
+    top: 12px;
+    background-repeat: no-repeat;
+  }
+
+  #builderIcon1{
+    background-image: url("../src/Dashboard.png");
+  }
+
+  #builderIcon2{
+    background-image: url("../src/Product.png");
+  }
+
+  #builderIcon3{
+    background-image: url("../src/Customers.png");
+  }
+
+  #builderIcon4{
+    background-image: url("../src/Income.png");
+  }
+
+  #builderIcon5{
+    background-image: url("../src/Promote.png");
+  }
+
+  #builderIcon6{
+    background-image: url("../src/Help.png");
+  }
+
+
+
+  .builderArrowInactive {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 231px;
+    background-image: url("../src/arrow_greey.png");
+    background-repeat: no-repeat;
+    top: 18px;
+  }
+
+  .builderArrowActive {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 231px;
+    background-image: url("../src/arrow_white.png");
+    background-repeat: no-repeat;
+    top: 18px;
+  }
+
+  #builderBlockTextEvano{
+    position: absolute;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    left: 55px;
+    top: 3px;
+    color: #000000;
+  }
+
+  #builderBlockTextPrMan{
+    position: absolute;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    left: 55px;
+    top: 23px;
+    color: #9197B3;
+  }
+
+  #builderAvatar{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    background-image: url("../src/Evano.png");
+    background-repeat: no-repeat;
+  }
+
